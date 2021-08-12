@@ -1,7 +1,7 @@
 .header-container{
     background-color: rgb(236, 41, 122);
-    height: 15vh;
-    border: 2px dashed rgb(255, 0, 0);
+    height: 12vh;
+    border: 3px dashed rgb(255, 0, 0);
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -70,6 +70,7 @@ button:hover{
 }
 
 .paper-layout-section h2{
+    font-size: 3em;
     text-align: center;
 }
 
@@ -106,7 +107,7 @@ main{
 
 footer{
     background-color: rgb(236, 41, 122);
-    height: 15vh;
+    height: 10vh;
     text-align: center;
 }
 
