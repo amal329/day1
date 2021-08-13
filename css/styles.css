@@ -1,4 +1,4 @@
-.header-container{
+/* .header-container{
     background-color: rgb(236, 41, 122);
     height: 12vh;
     border: 3px dashed rgb(255, 0, 0);
@@ -6,13 +6,30 @@
     display: flex;
     flex-direction: row;
     justify-content:space-around;
-}
-.logo{
-    height: 12vh;   
-    width: 6vw;
+} */
+.logo {
+  height: 12vh;
+  width: 6vw;
+  margin: 10px;
 }
 
-.nav-bar{
+.headaer-container ul {
+  float: right;
+}
+
+.header-container li {
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.btn {
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+/* .nav-bar{
     margin-left: 10vw;
 }
 
@@ -51,17 +68,23 @@ button:hover{
     width: 10vw;
     border-radius: 10px;
 }
+*/
+.hero-unit-container {
+  background-image: url("../images/bg.png");
+  height: 70vh;
+  text-align: center;
+}
+.hero-unit-container h1 {
+  margin: 0em;
+  padding-top: 20vh;
+  font-size: 5em;
+}
 
-.hero-unit-container{
-    background-image: url('../images/bg.png');
-    height:70vh;
-    text-align: center;
+.navbar {
+  margin-bottom: 0px;
 }
-.hero-unit-container h1{
-    margin: 0em;
-    padding-top: 20vh;
-    font-size: 5em;
-}
+
+/*
 .paper-layout-section{
     background-color: #ddd;
     display: flex;
@@ -73,29 +96,31 @@ button:hover{
     font-size: 3em;
     text-align: center;
 }
-
-.paper-card-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 5vh;
+*/
+.paper-card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+  padding: 20px;
 }
 
-.card img{
-    height: 35vh;
-    width:20vw;
+.card img {
+  height: 35vh;
+  width: 20vw;
 }
 
-.card{
-    background-color: white;
-    text-align: center;
-    height: 65vh;
-    width:20vw;
-    padding: 1em;
-    box-shadow: 5px 5px 30px grey;
+.card {
+  background-color: white;
+  text-align: center;
+  height: 55vh;
+  width: 20vw;
+  padding: 1em;
+  margin-left: 50px;
+  box-shadow: 5px 5px 30px grey;
 }
-
+/*
 .card:hover{
     background-color: rgba(214, 214, 214, 0.842);
 }
@@ -104,14 +129,10 @@ main{
     padding-bottom: 0;
     border-bottom:0;
 }
+*/
 
-footer{
-    background-color: rgb(236, 41, 122);
-    height: 10vh;
-    text-align: center;
-}
-
-footer h2{
-    padding: 1em;
-    margin: 0;
+footer {
+  background-color: rgb(236, 41, 122);
+  height: 10vh;
+  text-align: center;
 }
